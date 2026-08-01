@@ -12,3 +12,4 @@ Functions
 return
 WhileLoop
 forLoop
+breakContinue
