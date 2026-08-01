@@ -26,8 +26,21 @@ int main(void) {
     }
 
     printf("\n");
+
+    printf("%d \n", name[16]);
+
+    int scores[5] = {0};
+
+    for (int i = 0; i < 5; i++) {
+        printf("Enter a score: ");
+        scanf("%d", &scores[i]);
+    }
+
+    for (int i = 0; i < 5; i++) {
+        printf("%d ", scores[i]);
+    }
+
     
-    printf("%d ", name[16]);
 
     return 0;
 }
