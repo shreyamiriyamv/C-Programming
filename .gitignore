@@ -27,3 +27,5 @@ CommandLineArguments
 Files/FileIO
 Files/ReadFile
 malloc
+calloc
+realloc
